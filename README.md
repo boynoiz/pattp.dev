@@ -1,7 +1,3 @@
 ## My Personal Web Blog
 
-### Ideal stack
-
-- Rust with Actix HTTP
-- SurrealDB
-- Svelte
+Use [Zola](https://www.getzola.org/) and [solar-theme-zola](https://www.getzola.org/themes/solar-theme-zola/) theme
