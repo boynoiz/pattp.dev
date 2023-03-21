@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "@tailwindcss/typography": "^0.5.9",
+    "tailwindcss": "^3.2.7"
+  },
+  "name": "pattp-dev",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:boynoiz/pattp.dev.git",
+  "author": "Pathompong (Boy) Pechkongtong <pathompong.p@protonmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "NODE_ENV=production npx tailwindcss -i styles/styles.css -o static/styles/styles.css",
+    "watch": "npx tailwindcss -i styles/styles.css -o static/app.css; zola serve"
+  }
+}

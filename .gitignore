@@ -1,1 +1,4 @@
+!public/.gitkeep
+public/
 .idea/
+node_modules/

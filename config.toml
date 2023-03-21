@@ -10,7 +10,7 @@ theme = "solar-theme-zola"
 compile_sass = true
 
 # Whether to build a search index to be used later on by a JavaScript library
-build_search_index = true
+build_search_index = false
 
 [markdown]
 # Whether to do syntax highlighting
@@ -22,6 +22,7 @@ highlight_theme = "solarized-dark"
 # Put all your custom variables here
 
 site_menus = [
-  { url = "/about", name = "About me" },
-  { url = "rss.xml", name = "RSS" },
+    { url = "/blog/index.html", name = "Blog" },
+    { url = "/about", name = "About me" },
+    { url = "rss.xml", name = "RSS" },
 ]
