@@ -1,6 +1,8 @@
-{% extends "base.html" %}
-
+{% extends "layout.html" %}
 {% block content %}
-<h1>My landing page</h1>
-<a href="{{ get_url(path='@/blog/_index.md') }}">Blog</a>
+<div class="container mx-auto py-8">
+    <div class="grid gap-8 grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
+        {{ cards::grid(parent_section=section) }}
+    </div>
+</div>
 {% endblock content %}

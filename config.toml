@@ -11,16 +11,103 @@ compile_sass = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
 
+taxonomies = [
+    { name = "categories", feed = true, lang = "en"},
+    { name = "tags", feed = true, lang = "en"},
+]
+
 [markdown]
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 highlight_code = true
+highlight_themes_css = [
+    { theme = "visual-studio-dark", filename = "syntax-dark.css" },
+    { theme = "cheerfully-light", filename = "syntax-light.css" },
+]
 
 [extra]
-# Put all your custom variables here
 
-site_menus = [
-    { url = "/blog/index.html", name = "Blog" },
-    { url = "/about", name = "About me" },
-    { url = "rss.xml", name = "RSS" },
+favicon = "/ico/favicon.ico"
+enable_search = true
+enable_multilingue = false
+
+[extra.ga]
+enabled = false
+id = ""
+
+# [extra.lang]
+# items = [
+#     { lang = "en", links = [
+#         { base_url = "/", name = "English" },
+#         { base_url = "/pl", name = "Polish" }
+#     ] },
+#     { lang = "pl", links = [
+#         { base_url = "/", name = "Angielski" },
+#         { base_url = "/pl", name = "Polski" }
+#     ] }
+# ]
+[extra.share]
+enabled = false
+
+[extra.comments]
+enabled = false
+
+[extra.navbar]
+title = ""
+items = [
+    { lang = "en", links = [
+        { url = "/about", name = "About"},
+        { url = "/blog", name = "Blog"},
+        { url = "/projects", name = "Projects" },
+        { url = "/categories", name = "Categories"},
+        { url = "/tags", name = "Tags"},
+    ] },
 ]
+
+#[extra.sidebar]
+#enabled = false
+#show_categories = true
+#position = 'right' # left / right
+#custom_items = [
+#    { lang = "en", links = [
+#        { url = "/about", name = "About"},
+#        { url = "/blog", name = "Blog"},
+#        { url = "/projects", name = "Project" },
+#        { url = "/categories", name = "Categories"},
+#        { url = "/tags", name = "Tags"},
+#    ] },
+#]
+
+[extra.social]
+links = [
+{github = "https://github.com/boynoiz"},
+{twitter = "https://twitter.com/boynoiz"},
+{linkedin = "https://www.linkedin.com/in/pathompongp"},
+]
+
+[extra.icons]
+# id = {icon = "<path />", lookup = "phrase_1,phrase_2,phrase_n"}
+# if icon won't be found, script will treat icon value as a "d" param of 24x24 <path />
+# theme search for phrases in slugs and urls ans assign icons to links
+brackets = {icon = "brackets.svg", lookup="snippets"}
+book = {icon = "book.svg", lookup="blog"}
+download = {icon = "download.svg", lookup="assets"}
+external_link = {icon = "external_link.svg", lookup="url"}
+folder = {icon = "folder.svg", lookup="projects"}
+git = {icon = "git.svg", lookup="git"}
+tag = {icon = "tag.svg", lookup="tag"}
+lightbulb_on = {icon = "lightbulb_on.svg", lookup="light"}
+lightbulb_off = {icon = "lightbulb_off.svg", lookup="dark"}
+rss = {icon = "rss.svg", lookup="rss"}
+search = {icon = "search.svg", lookup="search"}
+sidebar = {icon = "sidebar.svg", lookup="sidebar"}
+bitbucket = {icon = "social_bitbucket.svg", lookup="bitbucket"}
+discord = {icon = "social_discord.svg", lookup="discord"}
+facebook = {icon = "social_facebook.svg", lookup="facebook"}
+github = {icon = "social_github.svg", lookup="github"}
+gitlab = {icon = "social_gitlab.svg", lookup="gitlab"}
+instagram = {icon = "social_instagram.svg", lookup="instagram"}
+linkedin = {icon = "social_linkedin.svg", lookup="linkedin"}
+twitter = {icon = "social_twitter.svg", lookup="twitter"}
+youtube = {icon = "social_youtube.svg", lookup="youtube"}
+text = {icon = "text.svg", lookup="text"}
