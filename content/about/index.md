@@ -15,7 +15,7 @@ Hey! I'm Patt, a DevOps Engineer and Part-time programmer living and working in 
 
 ### Programing Language
 
-- Mainly Golang, and still do PHP, JS sometimes, Bash shell, Python
+- Go, PHP, JavaScript, Bash shell, Python, Terraform hcl
 
 ### Tools
 - Software
