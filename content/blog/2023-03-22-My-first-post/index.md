@@ -13,8 +13,6 @@ feature_image_credit_url = "https://unsplash.com/photos/73-jkwAvlEs"
 
 ## Start blogging again...
 
-Start blogging again...
-
 It's been a long time since I blog my thing, Last time I do it was with Wordpress.com.
 
 Now, let's try something new. After looking for a blogging tool I found [Zola](https://www.getzola.org/) the static site engine.
