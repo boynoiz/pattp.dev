@@ -80,9 +80,10 @@ items = [
 
 [extra.social]
 links = [
-{github = "https://github.com/boynoiz"},
-{twitter = "https://twitter.com/boynoiz"},
-{linkedin = "https://www.linkedin.com/in/pathompongp"},
+    {email = "mailto:me@pattp.dev"},
+    {github = "https://github.com/boynoiz"},
+    {twitter = "https://twitter.com/boynoiz"},
+    {linkedin = "https://www.linkedin.com/in/pathompongp"},
 ]
 
 [extra.icons]
