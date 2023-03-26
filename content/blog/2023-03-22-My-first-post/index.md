@@ -4,9 +4,9 @@ date = 2023-03-25
 description = "It's been a long time."
 [taxonomies]
 categories=["blog"]
-tags=["zola", "blog"]
+tags=["zola", "tailwind"]
 [extra]
-feature_image = "image_1.png"
+feature_image = "image_1.webp"
 feature_image_credit = "Image by BoliviaInteligente"
 feature_image_credit_url = "https://unsplash.com/photos/73-jkwAvlEs"
 +++

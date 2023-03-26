@@ -1,0 +1,10 @@
+
+{% macro default_description() %}
+{% if section.description %}
+{{ section.description }}
+{% elif page.description %}
+{{ page.description }}
+{% elif config.description %}
+{{ config.description }}
+{% endif %}
+{% endmacro default_description %}

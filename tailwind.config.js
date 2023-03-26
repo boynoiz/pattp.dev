@@ -5,6 +5,7 @@ module.exports = {
   content: [
     './templates/**/*.html',
     './static/js/**/*.js',
+    "./node_modules/flowbite/**/*.js"
   ],
   darkMode: 'class', // or 'media' or 'class'
   theme: {

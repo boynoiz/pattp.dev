@@ -2,22 +2,24 @@
 <!DOCTYPE html>
 <html class="dark" style="color-scheme: dark;" lang="{{lang}}">
 <head>
+    <title>
+        {% block title %}
+        {{ titles::default_title() | trim }} :: {{ config.title | trim }}
+        {% endblock title %}
+    </title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    {% set description = descriptions::default_description() -%}
+    <meta name="description" property="og:description" content="{{ description | trim }}"/>
+    <meta name="title" property="og:title" content="{{ config.title }}" />
     <link href="{{ get_url(path="/css/main.css") | safe }}" rel="stylesheet" type="text/css">
     <link id="syntax_highlight" href="#" rel="stylesheet">
-    {#------------------------- SCRIPTS/BEGIN -------------------------#}
-    {% if config.extra.ga.enabled %}
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{ config.extra.ga.id }}"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', '{{ config.extra.ga.id }}',
-            {cookie_domain: '{{ config.base_url | trim_start_matches(pat="http://") | trim_start_matches(pat="https://") | trim_end_matches(pat="/") }}',
-                cookie_flags: 'SameSite = None; Secure'});
-    </script>
+    {#-- FAVICON --#}
+    {% if config.extra.favicon %}
+    <link href='{{ get_url(path=config.extra.favicon) }}' rel="icon" />
     {% endif %}
+    <base href="/">
+    {#------------------------- SCRIPTS/BEGIN -------------------------#}
     <script type="text/javascript" src="{{ get_url(path="js/main.js") | safe }}" defer></script>
     {% if config.build_search_index %}
     <script type="text/javascript" src="{{ get_url(path="elasticlunr.min.js") | safe }}" defer></script>
@@ -30,20 +32,22 @@
     {% if config.extra.enable_multilingue %}
     <script type="text/javascript" src="{{ get_url(path="js/lang.js") | safe }}" defer></script>
     {% endif %}
+    {% if config.extra.ga.enabled -%}
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ config.extra.ga.id }}"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', '{{ config.extra.ga.id }}',
+            {cookie_domain: '{{ config.base_url | trim_start_matches(pat="http://") | trim_start_matches(pat="https://") | trim_end_matches(pat="/") }}',
+                cookie_flags: 'SameSite = None; Secure'});
+    </script>
+    {% endif %}
     {% block extra_js %}
     {% endblock extra_js %}
     {#------------------------- SCRIPTS/END ---------------------------#}
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    {#-- FAVICON --#}
-    {% if config.extra.favicon %}
-    <link href='{{ config.extra.favicon }}' rel="icon" />
-    {% endif %}
-    <title>
-        {% block title %}
-        {{ titles::default_title() }} :: {{ config.title }}
-        {% endblock title %}
-    </title>
 </head>
 <body class="antialiased text-neutral-800 bg-light dark:bg-dark dark:text-white">
 {% if config.extra.sidebar.enabled %}{% block sidebar %}{% include "sidebar.html" %}{% endblock sidebar %}{% endif %}

@@ -25,7 +25,7 @@ Hey! I'm Patt, a DevOps Engineer and Part-time programmer living and working in 
 ### Tools
 - Software
   - This website used Zola with Tailwind, Thanks to a beautiful ["Izy"](https://github.com/VV0JC13CH/izy-zola) theme design by [Wojciech](https://github.com/VV0JC13CH "Wojciech") and hosted on Cloudflare Page, All the code is on [GitHub](https://github.com/boynoiz/pattp.dev)
-  - I mainly used Jetbrains Goland and sometimes VS Code
+  - I mainly used Jetbrains IDE, and sometimes NeoVim sometimes VS Code 
   - My main workspace is on Manjaro's WSL2, Windows 10
 - Gears
   - CPU: AMD Ryzen 7 3700X
