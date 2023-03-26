@@ -1,9 +1,11 @@
 {% macro get_header() %}
 <header class="flex items-center gap-4 flex-col sm:flex-row justify-between pt-10 md:pb-10">
-    <div class="flex text-base max-w-lg">
+    <div class="flex text-xl lg:text-2xl sm:text-base max-w-lg">
         <a aria-label="{{config.extra.navbar.title}}"  class="self-center" href="/{% if lang != config.default_language %}{{lang}}{% endif %}">
-            <div class="flex items-center justify-between text-xl font-semibold text-primary-color dark:text-primary-color-dark">
-                [pattp.dev <img src="/imgs/icons8-virtual-reality-32.png"/>]
+            <div class="flex sm:flex-row font-semibold text-primary-color dark:text-primary-color-dark">
+                [pattp.dev <img src="/imgs/icons8-virtual-reality-32.png"/> ]
+            </div>
+            <div class="flex sm:flex-row font-semibold text-primary-color dark:text-primary-color-dark">
                 {% if current_path and current_path != '/' %}
                 ~{{current_path | trim_end_matches(pat="/")}}$
                 {% elif current_path and current_path == '/'%}
@@ -12,7 +14,6 @@
                 ~/top_secret/half-life3
                 {% endif %}
                 <div class="Cursor">
-                    <span class="Cursor"></span>
                     <span class="Cursor">▋</span>
                 </div>
             </div>
@@ -21,7 +22,7 @@
     {#----------------------------------------------------------#}
     {#------------------------- NAVBAR/BEGIN -------------------#}
     {#----------------------------------------------------------#}
-    <div class="flex items-center text-base leading-5">
+    <div class="flex items-center text-base sm:text-sm leading-5">
         <div class="nav-links">
             {% for item in config.extra.navbar.items %}
             {% if lang == item.lang %}
