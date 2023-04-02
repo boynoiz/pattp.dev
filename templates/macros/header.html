@@ -1,6 +1,6 @@
 {% macro get_header() %}
-<header class="flex items-center gap-4 flex-col sm:flex-row justify-between pt-10 md:pb-10">
-    <div class="flex text-xl lg:text-2xl sm:text-base max-w-lg">
+<header class="flex gap-4 flex-col sm:flex-row justify-between pt-10 md:pb-10">
+    <div class="flex sm:items-start text-xl lg:text-2xl sm:text-base max-w-lg">
         <a aria-label="{{config.extra.navbar.title}}"  class="self-center" href="/{% if lang != config.default_language %}{{lang}}{% endif %}">
             <div class="flex sm:flex-row font-semibold text-primary-color dark:text-primary-color-dark">
                 [pattp.dev <img src="/imgs/icons8-virtual-reality-32.png"/> ]
