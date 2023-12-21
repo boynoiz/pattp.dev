@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Pattp.dev</title>
+    <subtitle>Just about my days</subtitle>
+    <link href="https://pattp.dev/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://pattp.dev"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-03-25T00:00:00+00:00</updated>
+    <id>https://pattp.dev/atom.xml</id>
+    <entry xml:lang="en">
+        <title>About me</title>
+        <published>2023-03-25T00:00:00+00:00</published>
+        <updated>2023-03-25T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://pattp.dev/about/" type="text/html"/>
+        <id>https://pattp.dev/about/</id>
+        
+        <content type="html">&lt;p&gt;Hey! I&#x27;m Patt, a DevOps Engineer and Part-time programmer living and working in Bangkok, Thailand. Welcome to my little space on the internet. This website is for my projects, tutorials, travel, and memo things from my daily adventure.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;what-i-m-doing-now&quot;&gt;What I&#x27;m doing now&lt;a class=&quot;zola-anchor&quot; href=&quot;#what-i-m-doing-now&quot; aria-label=&quot;Anchor link for: what-i-m-doing-now&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;I&#x27;m working as a Senior DevOps Engineer at &lt;a href=&quot;https:&#x2F;&#x2F;www.sellsuki.co.th&#x2F;&quot;&gt;Sellsuki&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Learning Rust&lt;&#x2F;li&gt;
+&lt;li&gt;Building Kubernetes cluster with 4 Raspberry Pi as my home lab, Looking forward to using &lt;a href=&quot;https:&#x2F;&#x2F;www.kickstarter.com&#x2F;projects&#x2F;uptimelab&#x2F;compute-blade&quot;&gt;Compute Blade&lt;&#x2F;a&gt; with Raspberry Pi Compute Module 4&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;facts-about-me&quot;&gt;Facts about me&lt;a class=&quot;zola-anchor&quot; href=&quot;#facts-about-me&quot; aria-label=&quot;Anchor link for: facts-about-me&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;When I was 16 years old, I spent my time after school at an internet cafe to learn HTML, upload the website with FTP to Yahoo GeoCities, and get paid for ads banners&lt;&#x2F;li&gt;
+&lt;li&gt;I worked at an internet cafe, learned how to fix the computer, set up the local network, LAMP stack, and web programming with PHP and JavaScript.&lt;&#x2F;li&gt;
+&lt;li&gt;Started opening the computer shop, but it&#x27;s not going well&lt;&#x2F;li&gt;
+&lt;li&gt;I worked as a Graphic Designer before, Started a printing shop, then converted myself to Web Developer, then DevOps Engineer.&lt;&#x2F;li&gt;
+&lt;li&gt;I love camping in the countryside or hiking the national park mountains. I hope to challenge the &lt;a href=&quot;https:&#x2F;&#x2F;thailandtourismdirectory.go.th&#x2F;en&#x2F;attraction&#x2F;2288&quot;&gt;Mount Mokoju&lt;&#x2F;a&gt; before I get old. LOL&lt;&#x2F;li&gt;
+&lt;li&gt;Since we started working from home in 2020, I can feel my legs are too weak made me decide to begin running and then join running events.&lt;&#x2F;li&gt;
+&lt;li&gt;I love to play badminton as well&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;programing-language&quot;&gt;Programing Language&lt;a class=&quot;zola-anchor&quot; href=&quot;#programing-language&quot; aria-label=&quot;Anchor link for: programing-language&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Go, PHP, JavaScript, Bash shell, Python, Terraform hcl&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;tools&quot;&gt;Tools&lt;a class=&quot;zola-anchor&quot; href=&quot;#tools&quot; aria-label=&quot;Anchor link for: tools&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Software
+&lt;ul&gt;
+&lt;li&gt;This website used Zola with Tailwind, Thanks to a beautiful &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;VV0JC13CH&#x2F;izy-zola&quot;&gt;&amp;quot;Izy&amp;quot;&lt;&#x2F;a&gt; theme design by &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;VV0JC13CH&quot; title=&quot;Wojciech&quot;&gt;Wojciech&lt;&#x2F;a&gt; and hosted on Cloudflare Page, All the code is on &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;boynoiz&#x2F;pattp.dev&quot;&gt;GitHub&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;I mainly used Jetbrains IDE, and sometimes NeoVim sometimes VS Code &lt;&#x2F;li&gt;
+&lt;li&gt;My main workspace is on Manjaro&#x27;s WSL2, Windows 10&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Gears
+&lt;ul&gt;
+&lt;li&gt;CPU: AMD Ryzen 7 3700X&lt;&#x2F;li&gt;
+&lt;li&gt;Motherboard: Asus Pro WS X570-ACE&lt;&#x2F;li&gt;
+&lt;li&gt;Memory: 32GBx2 G.Skill Trident Z Neo DDR4 3200&lt;&#x2F;li&gt;
+&lt;li&gt;Storage: 240 GB SSD 2.5 SATA WD Green, 2TB Seagate FireCuda 520 SSD M.2&lt;&#x2F;li&gt;
+&lt;li&gt;GPU: Sapphire PULSE RX6600&lt;&#x2F;li&gt;
+&lt;li&gt;PSU: Corsair HX850i&lt;&#x2F;li&gt;
+&lt;li&gt;Case: Corsair Carbide Series 678C Black&lt;&#x2F;li&gt;
+&lt;li&gt;Monitor: Dell U3422WE, Dell U2422H x2(Portrait)&lt;&#x2F;li&gt;
+&lt;li&gt;Keyboard: Keychron K6 Gateron G Pro Brown Switch&lt;&#x2F;li&gt;
+&lt;li&gt;Microphone: AKG P120&lt;&#x2F;li&gt;
+&lt;li&gt;Headphone: Audio Technica ATH-M50x, Sony WF-C500&lt;&#x2F;li&gt;
+&lt;li&gt;Speaker: Creative Stage Air V2&lt;&#x2F;li&gt;
+&lt;li&gt;Audio Interface: IK Multimedia AXE I&#x2F;O, Yamaha AG06&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>My first post (agian)</title>
+        <published>2023-03-25T00:00:00+00:00</published>
+        <updated>2023-03-25T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://pattp.dev/blog/my-first-post/" type="text/html"/>
+        <id>https://pattp.dev/blog/my-first-post/</id>
+        
+        <content type="html">&lt;h2 id=&quot;start-blogging-again&quot;&gt;Start blogging again...&lt;&#x2F;h2&gt;
+&lt;p&gt;It&#x27;s been a long time since I blog my thing, Last time I do it was with Wordpress.com.&lt;&#x2F;p&gt;
+&lt;p&gt;Now, let&#x27;s try something new. After looking for a blogging tool I found &lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;&quot;&gt;Zola&lt;&#x2F;a&gt; the static site engine.&lt;&#x2F;p&gt;
+&lt;p&gt;Then after trying to understand how it works include using &lt;a href=&quot;https:&#x2F;&#x2F;tailwindcss.com&#x2F;&quot;&gt;Tailwind&lt;&#x2F;a&gt; as the CSS Framework, I found the &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;VV0JC13CH&#x2F;izy-zola&quot;&gt;Izy&lt;&#x2F;a&gt; theme that create by &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;VV0JC13CH&quot;&gt;Wojciech&lt;&#x2F;a&gt; and I hope that he don&#x27;t mind if I try to learn Zola and Tailwind from his theme (Thank you so much)&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Dotfile</title>
+        <published>2023-03-25T00:00:00+00:00</published>
+        <updated>2023-03-25T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://pattp.dev/projects/dotfiles/" type="text/html"/>
+        <id>https://pattp.dev/projects/dotfiles/</id>
+        
+        <content type="html"></content>
+        
+    </entry>
+</feed>
