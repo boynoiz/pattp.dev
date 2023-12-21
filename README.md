@@ -23,7 +23,8 @@ tailwind-nextjs-starter-blog was used as a starting 'tailwindcss' template for t
 
 ## Contact
 
-- boynoiz@gmail.com
+- me@pattp.dev
+- https://twitter.com/boynoiz
 - https://mastodon.social/@boynoiz
 
 ## Inspirations:
