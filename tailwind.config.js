@@ -10,7 +10,10 @@ module.exports = {
   darkMode: 'class', // or 'media' or 'class'
   theme: {
     extend: {
-      transform: ['hover', 'focus']
+      transform: ['hover', 'focus'],
+      colors: {
+        'dark-gold': '#CF8E30'
+      }
     },
     animation: {
       'spin-slow': 'spin 3s linear infinite',
@@ -172,9 +175,9 @@ module.exports = {
         css: {
           color: theme('colors.neutral.300'),
           a: {
-            color: theme('colors.primary.500'),
+            color: theme('colors.dark-gold'),
             '&:hover': {
-              color: theme('colors.primary.400'),
+              color: theme('colors.dark-gold-light'),
             },
             code: { color: theme('colors.primary.400') },
           },
