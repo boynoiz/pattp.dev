@@ -14,6 +14,7 @@ module.exports = {
       colors: {
         'dark-gold': '#CF8E30',
         'dark-gold-light': '#DBAC37',
+        'dark-gold-darker': '#956C24'
       }
     },
     animation: {
@@ -45,9 +46,9 @@ module.exports = {
           'max-width':  '65ch',
           color: theme('colors.neutral.700'),
           a: {
-            color: theme('colors.primary.500'),
+            color: theme('colors.dark-gold'),
             '&:hover': {
-              color: theme('colors.primary.600'),
+              color: theme('colors.dark-gold-darker'),
             },
             code: { color: theme('colors.primary.400') },
           },
