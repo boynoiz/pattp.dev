@@ -1,5 +1,5 @@
 +++
-title = "My first post (agian)"
+title = "My First Post Again!" 
 date = 2023-03-25
 description = "It's been a long time."
 [taxonomies]
@@ -11,10 +11,10 @@ feature_image_credit = "Image by BoliviaInteligente"
 feature_image_credit_url = "https://unsplash.com/photos/73-jkwAvlEs"
 +++
 
-## Start blogging again...
+## Back to Blogging
 
-It's been a long time since I blog my thing, Last time I do it was with Wordpress.com.
+It's been a long time since I've actively blogged. Last time, I used Wordpress.com.
 
-Now, let's try something new. After looking for a blogging tool I found [Zola](https://www.getzola.org/) the static site engine.
+Now, let's try something new! After researching blogging tools, I found [Zola](https://www.getzola.org/), a static site generator.
 
-Then after trying to understand how it works include using [Tailwind](https://tailwindcss.com/) as the CSS Framework, I found the [Izy](https://github.com/VV0JC13CH/izy-zola) theme that create by [Wojciech](https://github.com/VV0JC13CH) and I hope that he don't mind if I try to learn Zola and Tailwind from his theme (Thank you so much)
+After experimenting with Zola and incorporating [Tailwind](https://tailwindcss.com/) as my CSS framework, I discovered the [Izy](https://github.com/VV0JC13CH/izy-zola) theme created by Wojciech ([https://github.com/VV0JC13CH])  I hope he doesn't mind me using his theme as a learning resource for Zola and Tailwind. (Thank you so much!)
