@@ -12,7 +12,8 @@ module.exports = {
     extend: {
       transform: ['hover', 'focus'],
       colors: {
-        'dark-gold': '#CF8E30'
+        'dark-gold': '#CF8E30',
+        'dark-gold-light': '#DBAC37',
       }
     },
     animation: {
