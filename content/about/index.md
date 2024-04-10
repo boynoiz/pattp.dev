@@ -1,33 +1,35 @@
-+++
-title = "About me"
+---
+title = "About Me"
 date = 2023-03-25
-+++
+---
 
-Hey! I'm Patt, a DevOps Engineer and Part-time programmer living and working in Bangkok, Thailand. Welcome to my little space on the internet. This website is for my projects, tutorials, travel, and memo things from my daily adventure.
+Hello! I'm Patt, a DevOps Engineer and part-time programmer based in Bangkok, Thailand. Welcome to my corner of the internet, where I share my projects, tutorials, travel adventures, and notes from my journey.
 
-### What I'm doing now
-- I'm working as a Senior DevOps Engineer at [Sellsuki](https://www.sellsuki.co.th/)
-- Learning Rust
-- Building Kubernetes cluster with 4 Raspberry Pi as my home lab, Looking forward to using [Compute Blade](https://www.kickstarter.com/projects/uptimelab/compute-blade) with Raspberry Pi Compute Module 4
+**What I'm Doing Now:**
 
-### Facts about me
-- When I was 16 years old, I spent my time after school at an internet cafe to learn HTML, upload the website with FTP to Yahoo GeoCities, and get paid for ads banners
-- I worked at an internet cafe, learned how to fix the computer, set up the local network, LAMP stack, and web programming with PHP and JavaScript.
-- Started opening the computer shop, but it's not going well
-- I worked as a Graphic Designer before, Started a printing shop, then converted myself to Web Developer, then DevOps Engineer.
-- I love camping in the countryside or hiking the national park mountains. I hope to challenge the [Mount Mokoju](https://thailandtourismdirectory.go.th/en/attraction/2288) before I get old. LOL
-- Since we started working from home in 2020, I can feel my legs are too weak made me decide to begin running and then join running events.
-- I love to play badminton as well
+* Working as a Senior DevOps Engineer at [Sellsuki](https://www.sellsuki.co.th/).
+* Exploring the Go programming language.
+* Building a home lab Kubernetes cluster with four Raspberry Pis, including setting up NAS for persistent storage.
 
-### Programing Language
-- Go, PHP, JavaScript, Bash shell, Python, Terraform hcl
+**Facts About Me:**
 
-### Tools
-- Software
-  - This website used Zola with Tailwind, Thanks to a beautiful ["Izy"](https://github.com/VV0JC13CH/izy-zola) theme design by [Wojciech](https://github.com/VV0JC13CH "Wojciech") and hosted on Cloudflare Page, All the code is on [GitHub](https://github.com/boynoiz/pattp.dev)
-  - I mainly used Jetbrains IDE, and sometimes NeoVim sometimes VS Code 
-  - My main workspace is on Manjaro's WSL2, Windows 10
-- Gears
+* I started my tech journey at 16, learning HTML in internet cafes and creating websites with GeoCities (earning money from ad banners!).
+* I've worked at an internet cafe (fixing computers, building networks, and learning LAMP stack web development).
+* My entrepreneurial ventures include a computer shop and a printing business.
+* My career path has evolved: Graphic Designer → Web Developer → DevOps Engineer.
+* I'm an outdoor enthusiast – camping, hiking, and I dream of climbing Mount Mokoju!
+* The 2020 work-from-home shift inspired me to focus on fitness through running events.
+* Badminton is another passion of mine.
+
+**Programming Languages:**
+
+* Go, PHP, JavaScript, Bash, Python, Terraform HCL
+
+**Tools**
+* **Software:** 
+  - This website is built with Zola and Tailwind CSS using the beautiful "Izy" theme by Wojciech (GitHub: [https://github.com/VV0JC13CH/izy-zola](https://github.com/VV0JC13CH/izy-zola)). It's hosted on Cloudflare Pages, and the code is on GitHub: [https://github.com/boynoiz/pattp.dev](https://github.com/boynoiz/pattp.dev). 
+  - My primary development tools are JetBrains IDEs, supplemented with NeoVim and VS Code. I use Manjaro (WSL2) on Windows 11.
+* **Gears:**
   - CPU: AMD Ryzen 7 3700X
   - Motherboard: Asus Pro WS X570-ACE
   - Memory: 32GBx2 G.Skill Trident Z Neo DDR4 3200
@@ -36,7 +38,7 @@ Hey! I'm Patt, a DevOps Engineer and Part-time programmer living and working in 
   - PSU: Corsair HX850i
   - Case: Corsair Carbide Series 678C Black
   - Monitor: Dell U3422WE, Dell U2422H x2(Portrait)
-  - Keyboard: Keychron K6 Gateron G Pro Brown Switch
+  - Keyboard: ~~Keychron K6 Gateron G Pro Brown Switch~~ Keychron Q1 Max Brown Switch
   - Microphone: AKG P120
   - Headphone: Audio Technica ATH-M50x, Sony WF-C500
   - Speaker: Creative Stage Air V2
