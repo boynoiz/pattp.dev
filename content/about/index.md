@@ -3,7 +3,7 @@ title = "About Me"
 date = 2023-03-25
 +++
 
-Hello! I'm Patt, a DevOps/SRE Engineer and part-time programmer based in Bangkok, Thailand. Welcome to my corner of the internet, where I share my projects, tutorials, travel adventures, and notes from my journey.
+Hello! I'm Patt, an SRE/DevOps Engineer and part-time programmer based in Bangkok, Thailand. Welcome to my corner of the internet, where I share my projects, tutorials, travel adventures, and notes from my journey.
 
 **What I'm Doing Now:**
 
