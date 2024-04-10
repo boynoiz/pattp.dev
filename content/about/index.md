@@ -7,7 +7,7 @@ Hello! I'm Patt, a DevOps Engineer and part-time programmer based in Bangkok, Th
 
 **What I'm Doing Now:**
 
-* Working as a Senior Site Reialble Engineer at [Sellsuki](https://www.sellsuki.co.th/).
+* Working as a Senior Site Reliability Engineer at [Sellsuki](https://www.sellsuki.co.th/).
 * Exploring the Go programming language.
 * Building a home lab Kubernetes cluster with four Raspberry Pis, including setting up NAS for persistent storage.
 
@@ -16,7 +16,7 @@ Hello! I'm Patt, a DevOps Engineer and part-time programmer based in Bangkok, Th
 * I started my tech journey at 16, learning HTML in internet cafes and creating websites with GeoCities (earning money from ad banners!).
 * I've worked at an internet cafe (fixing computers, building networks, and learning LAMP stack web development).
 * My entrepreneurial ventures include a computer shop and a printing business.
-* My career path has evolved: Graphic Designer → Web Developer → DevOps Engineer/Site Reialble Engineer.
+* My career path has evolved: Graphic Designer → Web Developer → DevOps Engineer/Site Reliability Engineer.
 * I'm an outdoor enthusiast – camping, hiking, and I dream of climbing Mount Mokoju!
 * The 2020 work-from-home shift inspired me to focus on fitness through running events.
 * Badminton is another passion of mine.
