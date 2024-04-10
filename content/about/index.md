@@ -1,7 +1,7 @@
----
++++
 title = "About Me"
 date = 2023-03-25
----
++++
 
 Hello! I'm Patt, a DevOps Engineer and part-time programmer based in Bangkok, Thailand. Welcome to my corner of the internet, where I share my projects, tutorials, travel adventures, and notes from my journey.
 
@@ -27,7 +27,7 @@ Hello! I'm Patt, a DevOps Engineer and part-time programmer based in Bangkok, Th
 
 **Tools**
 * **Software:** 
-  - This website is built with Zola and Tailwind CSS using the beautiful "Izy" theme by Wojciech (GitHub: [https://github.com/VV0JC13CH/izy-zola](https://github.com/VV0JC13CH/izy-zola)). It's hosted on Cloudflare Pages, and the code is on GitHub: [https://github.com/boynoiz/pattp.dev](https://github.com/boynoiz/pattp.dev). 
+  - This website is built with Zola and Tailwind CSS using the beautiful ["Izy"](https://github.com/VV0JC13CH/izy-zola) theme design by [Wojciech](https://github.com/VV0JC13CH "Wojciech"). It's hosted on Cloudflare Pages, and the code is on GitHub: [https://github.com/boynoiz/pattp.dev](https://github.com/boynoiz/pattp.dev). 
   - My primary development tools are JetBrains IDEs, supplemented with NeoVim and VS Code. I use Manjaro (WSL2) on Windows 11.
 * **Gears:**
   - CPU: AMD Ryzen 7 3700X
