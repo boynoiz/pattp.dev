@@ -38,7 +38,7 @@ Hello! I'm Patt, a DevOps Engineer and part-time programmer based in Bangkok, Th
   - PSU: Corsair HX850i
   - Case: Corsair Carbide Series 678C Black
   - Monitor: Dell U3422WE, Dell U2422H x2(Portrait)
-  - Keyboard: ~~Keychron K6 Gateron G Pro Brown Switch~~ Keychron Q1 Max Brown Switch
+  - Keyboard: Keychron Q1 Max Brown Switch, Keychron K6 Gateron G Pro Brown Switch
   - Microphone: AKG P120
   - Headphone: Audio Technica ATH-M50x, Sony WF-C500
   - Speaker: Creative Stage Air V2
