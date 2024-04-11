@@ -1,7 +1,6 @@
 .idea/
 node_modules/
 public/*
-!public/.gitkeep
 static/css/*
 !static/css/.gitkeep
 static/js/*
