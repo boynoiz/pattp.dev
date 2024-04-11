@@ -17,7 +17,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Build and deploy
+      - name: Zola build page
         uses: shalzz/zola-deploy-action@v0.18.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -28,7 +28,7 @@ jobs:
         with:
           node-version: 20.9.0
 
-      - name: Run install
+      - name: Install CSS and Js dependencies
         uses: borales/actions-yarn@v4
         with:
           cmd: install
