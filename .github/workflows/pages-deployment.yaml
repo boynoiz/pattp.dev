@@ -38,7 +38,7 @@ jobs:
         with:
           cmd: prod
 
-      - name: Publish
+      - name: Publish to Cloudflare Page
         uses: cloudflare/pages-action@1
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}

@@ -72,8 +72,8 @@ extra_syntaxes_and_themes = []
 # See below for list of allowed values.
 highlight_theme = "css"
 highlight_themes_css = [
-    { theme = "visual-studio-dark", filename = "syntax-dark.css" },
-    { theme = "cheerfully-light", filename = "syntax-light.css" },
+    { theme = "visual-studio-dark", filename = "css/syntax-dark.css" },
+    { theme = "cheerfully-light", filename = "css/syntax-light.css" },
 ]
 
 # When set to "true", emoji aliases translated to their corresponding
