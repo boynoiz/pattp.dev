@@ -17,12 +17,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Zola build page
-        uses: shalzz/zola-deploy-action@v0.18.0
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          OUT_DIR: public
-
       - name: Set Node.js 20.9.0
         uses: actions/setup-node@v3
         with:
@@ -37,6 +31,12 @@ jobs:
         uses: borales/actions-yarn@v4
         with:
           cmd: prod
+
+      - name: Zola build page
+        uses: shalzz/zola-deploy-action@v0.18.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OUT_DIR: public
 
       - name: Publish to Cloudflare Page
         uses: cloudflare/pages-action@1
