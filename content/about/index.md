@@ -43,3 +43,6 @@ Hello! I'm Patt, an SRE/DevOps Engineer and part-time programmer based in Bangko
     - Headphone: Audio-Technica ATH-M50x, Sony WF-C500
     - Speaker: Creative Stage Air V2
     - Audio Interface: IK Multimedia AXE I/O, Yamaha AG06
+
+**Miscellaneous**
+* [Resume](@/resume/index.md)
