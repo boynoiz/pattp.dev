@@ -3,12 +3,14 @@ on:
     branches:
       - main
   pull_request:
+    branches:
+      - main
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: read
       deployments: write
     name: Deploy to Cloudflare Pages
     steps:

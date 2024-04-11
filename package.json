@@ -5,22 +5,44 @@
   "repository": "git@github.com:boynoiz/pattp.dev.git",
   "author": "Pathompong (Boy) Pechkongtong <pathompong.p@protonmail.com>",
   "license": "MIT",
+  "private": true,
   "scripts": {
-    "uglify": "uglifyjs ./src/js/main.js --compress --mangle -o ./static/js/main.js && uglifyjs ./src/js/page.js --compress --mangle -o ./static/js/page.js && uglifyjs ./src/js/search.js --compress --mangle -o ./static/js/search.js && uglifyjs ./src/js/lang.js --compress --mangle -o ./static/js/lang.js && uglifyjs ./src/js/sidebar.js --compress --mangle -o ./static/js/sidebar.js",
-    "dev": "npm run uglify && NODE_ENV=development postcss ./src/css/main.css -o ./static/css/main.css --verbose",
-    "prod": "npm run uglify && NODE_ENV=production postcss ./src/css/main.css -o ./static/css/main.css --verbose",
-    "watch": "NODE_ENV=development postcss ./src/css/main.css -o ./static/css/main.css -w --verbose"
+    "minify:js": "fn() { yarn run uglifyjs ./src/js/\"$1\".js --compress --mangle -o ./static/js/\"$1\".js --verbose;}; fn",
+    "dev:js": "cross-env NODE_ENV=development yarn minify:js main && cross-env NODE_ENV=development yarn minify:js page && cross-env NODE_ENV=development yarn minify:js search && cross-env NODE_ENV=development yarn minify:js lang && cross-env NODE_ENV=development yarn minify:js sidebar",
+    "dev:css": "cross-env NODE_ENV=development yarn tailwindcss -i ./src/css/main.css -o ./static/css/main.css --verbose",
+    "dev": "yarn dev:js && yarn dev:css",
+    "prod:js": "cross-env NODE_ENV=production yarn minify:js main && cross-env NODE_ENV=production yarn minify:js page && cross-env NODE_ENV=production yarn minify:js search && cross-env NODE_ENV=production yarn minify:js lang && cross-env NODE_ENV=production yarn minify:js sidebar",
+    "prod:css": "cross-env NODE_ENV=production yarn tailwindcss -i ./src/css/main.css -o ./static/css/main.css --minify --verbose",
+    "prod": "yarn prod:css && yarn prod:js",
+    "watch:css": "nodemon -x yarn dev:css -w tailwind.config.js -w .src/css/*",
+    "watch:js": "nodemon -x yarn dev:js -w .src/js/*",
+    "zola": "zola serve --interface 0.0.0.0 --base-url 127.0.0.1",
+    "serve": "run-p watch:css watch:js zola"
   },
   "devDependencies": {
-    "@mdi/svg": "7.1.96",
+    "@mdi/svg": "7.4.47",
     "@tailwindcss/forms": "0.5.7",
-    "@tailwindcss/typography": "0.5.9",
+    "@tailwindcss/typography": "0.5.12",
     "autoprefixer": "10.4.19",
+    "cross-env": "^7.0.3",
     "cssnano": "6.1.2",
+    "nodemon": "^3.1.0",
+    "npm-run-all": "^4.1.5",
     "postcss": "8.4.38",
-    "postcss-cli": "10.1.0",
+    "postcss-cli": "11.0.0",
     "tailwindcss": "3.4.3",
     "uglify-js": "3.17.4"
   },
-  "dependencies": {}
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
