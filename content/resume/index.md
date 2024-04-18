@@ -4,6 +4,8 @@ date = 2024-04-11
 +++
 
 # Pathompong Pechkongtong
+**SRE | DevOps | Web Developer**
+
 * Email - me@pattp.dev
 * Github - [boynoiz](https://github.com/boynoiz)
 * LinkedIn - [pathompongp](https://www.linkedin.com/in/pathompongp)
@@ -43,7 +45,7 @@ date = 2024-04-11
   - Improve the deployment system, Using Jenkins.
   - Improve the internal network inside our office, Using VPN for the internal network secure access.
 
-**Web Developer (Apr 2019 - Mar 2021)**
+**Web Developer (Mar 2019 - Apr 2019)**
 
 * **Responsibility:**
   - Develop a property management system called Arthur, Using CakePHP Framework, NodeJS, and Python.
