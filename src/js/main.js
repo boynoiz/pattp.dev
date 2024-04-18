@@ -25,20 +25,33 @@ document.addEventListener("DOMContentLoaded", function() {
   document.getElementById('switch-theme')?.addEventListener('click', switchTheme);
 });
 
+// Print event
+// window.addEventListener("beforeprint", (event) => {
+//
+// })
+
 function switchTheme() {
   let current_theme = ([...document.documentElement.classList].includes('dark')) ? 'dark' : 'light';
   if (current_theme === 'dark') {
-    localStorage.theme = 'light';
-    document.documentElement.classList.remove('dark');
-    document.getElementById('light').classList.add('hidden');
-    document.getElementById('dark').classList.remove('hidden');
-    document.getElementById("syntax_highlight").href = "/css/syntax-light.css";
+    lightTheme();
   } else {
-    localStorage.theme = 'dark';
-    document.documentElement.classList.add('dark');
-    document.getElementById('dark').classList.add('hidden');
-    document.getElementById('light').classList.remove('hidden');
-    document.getElementById("syntax_highlight").href = "/css/syntax-dark.css";
+    darkTheme();
   }
+}
+
+function lightTheme() {
+  localStorage.theme = 'light';
+  document.documentElement.classList.remove('dark');
+  document.getElementById('light').classList.add('hidden');
+  document.getElementById('dark').classList.remove('hidden');
+  document.getElementById("syntax_highlight").href = "/css/syntax-light.css";
+}
+
+function darkTheme() {
+  localStorage.theme = 'dark';
+  document.documentElement.classList.add('dark');
+  document.getElementById('dark').classList.add('hidden');
+  document.getElementById('light').classList.remove('hidden');
+  document.getElementById("syntax_highlight").href = "/css/syntax-dark.css";
 }
 
