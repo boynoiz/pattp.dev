@@ -4,6 +4,8 @@ date = 2024-04-11
 +++
 
 # Pathompong Pechkongtong
+**SRE | DevOps | Web Developer**
+
 * Email - me@pattp.dev
 * Github - [boynoiz](https://github.com/boynoiz)
 * LinkedIn - [pathompongp](https://www.linkedin.com/in/pathompongp)
