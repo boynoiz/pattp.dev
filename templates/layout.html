@@ -71,7 +71,7 @@
                     <div class="flex justify-center">
                         <h1 class="hidden md:block text-3xl font-bold leading-9 tracking-tight text-neutral-900 dark:text-neutral-100 sm:text-2xl sm:leading-10 md:text-4xl md:leading-14 capitalize">{{ titles::default_title() }}</h1>
                     </div>
-                    <div class="flex items-center place-items-center">
+                    <div class="flex items-center place-items-center print:hidden">
                         {% if config.build_search_index %}
                         <div class="flex-none">
                             <form class="relative hidden lg:block">
@@ -117,7 +117,7 @@
         </main>
         {% block pagination %}
         {% endblock%}
-        <footer class="border-t border-neutral-400 dark:border-neutral-700">
+        <footer class="border-t border-neutral-400 dark:border-neutral-700 print:hidden">
             {#----------------------------------------------------------#}
             {#------------------------- FOOTER/BEGIN -------------------#}
             {#----------------------------------------------------------#}
