@@ -19,20 +19,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Set Node.js 20.9.0
-        uses: actions/setup-node@v3
-        with:
-          node-version: 20.9.0
+      - name: Set up Bun
+        uses: oven-sh/setup-bun@v1
 
-      - name: Install CSS and Js dependencies
-        uses: borales/actions-yarn@v4
-        with:
-          cmd: install
+      - name: Install NPM dependencies
+        run: bun install
 
-      - name: Build production bundle
-        uses: borales/actions-yarn@v4
-        with:
-          cmd: prod
+      - name: Build CSS&JS
+        run: bun prod
 
       - name: Zola build page
         uses: shalzz/zola-deploy-action@v0.18.0
