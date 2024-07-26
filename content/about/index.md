@@ -7,7 +7,7 @@ Hello! I'm Patt, an SRE/DevOps Engineer and part-time programmer based in Bangko
 
 **What I'm Doing Now:**
 
-* Working as a Senior Site Reliability Engineer at [Sellsuki](https://www.sellsuki.co.th/).
+* Working as a Senior DevSecOps Engineer at [Conicle](https://www.conicle.com/).
 * Exploring the Go programming language.
 * Building a home lab Kubernetes cluster with four Raspberry Pis, including setting up NAS for persistent storage.
 
@@ -38,11 +38,12 @@ Hello! I'm Patt, an SRE/DevOps Engineer and part-time programmer based in Bangko
     - PSU: Corsair HX850i
     - Case: Corsair Carbide Series 678C Black
     - Monitor: Dell U3422WE, Dell U2422H x2(Portrait)
-    - Keyboard: Keychron Q1 Max Brown Switch, Keychron K6 Gateron G Pro Brown Switch
+    - Keyboard: Keychron Q1 Max Brown Switch
     - Microphone: AKG P120
     - Headphone: Audio-Technica ATH-M50x, Sony WF-C500
     - Speaker: Creative Stage Air V2
     - Audio Interface: IK Multimedia AXE I/O, Yamaha AG06
+    - Lenovo Thinkpad T14 Gen 4 with Manjaro Linux
 
 **Miscellaneous**
 * [Resume](@/resume/index.md)
