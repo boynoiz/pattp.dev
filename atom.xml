@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Pattp.dev</title>
+    <subtitle>Just about my days</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://pattp.dev/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://pattp.dev"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-04-11T00:00:00+00:00</updated>
+    <id>https://pattp.dev/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Resume</title>
+        <published>2024-04-11T00:00:00+00:00</published>
+        <updated>2024-04-11T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://pattp.dev/resume/"/>
+        <id>https://pattp.dev/resume/</id>
+        
+        <content type="html" xml:base="https://pattp.dev/resume/">&lt;h1 id=&quot;pathompong-pechkongtong&quot;&gt;Pathompong Pechkongtong&lt;a class=&quot;zola-anchor&quot; href=&quot;#pathompong-pechkongtong&quot; aria-label=&quot;Anchor link for: pathompong-pechkongtong&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;p&gt;&lt;strong&gt;SRE | DevOps | Web Developer&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Email - me@pattp.dev&lt;&#x2F;li&gt;
+&lt;li&gt;Github - &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;boynoiz&quot;&gt;boynoiz&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;LinkedIn - &lt;a href=&quot;https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;pathompongp&quot;&gt;pathompongp&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;experience&quot;&gt;Experience&lt;a class=&quot;zola-anchor&quot; href=&quot;#experience&quot; aria-label=&quot;Anchor link for: experience&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;hr &#x2F;&gt;
+&lt;h3 id=&quot;sellsuki-co-ltd-bangkok&quot;&gt;Sellsuki Co., Ltd., (Bangkok)&lt;a class=&quot;zola-anchor&quot; href=&quot;#sellsuki-co-ltd-bangkok&quot; aria-label=&quot;Anchor link for: sellsuki-co-ltd-bangkok&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;strong&gt;Senior Site Reliability Engineer (Mar 2023 - Present)&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Responsibility:&lt;&#x2F;strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Maintain and improve the infrastructure for the company&#x27;s SaaS product called Akita, Using Kubernetes (AWS EKS) with Terraform.&lt;&#x2F;li&gt;
+&lt;li&gt;CI&#x2F;CD and Automation with GitLab CI and ArgoCD.&lt;&#x2F;li&gt;
+&lt;li&gt;Implemented observability, logging and alert system. Use FluentD, Prometheus, AlertManager, OpenTelemetry and Grafana LGTM (Loki, Grafana, Tempo, Mimir).&lt;&#x2F;li&gt;
+&lt;li&gt;Implemented applications secret with Hashicorp Vault and External Secret Operator. &lt;&#x2F;li&gt;
+&lt;li&gt;Implemented internal service access via Wireguard tunnel and Authentication with Google Workspace OIDC.&lt;&#x2F;li&gt;
+&lt;li&gt;Design and implement infrastructures based on the customer&#x27;s requirements (contract jobs).&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;br&gt;
+&lt;h3 id=&quot;arthur-sea-co-ltd-bangkok&quot;&gt;Arthur SEA Co., Ltd., (Bangkok)&lt;a class=&quot;zola-anchor&quot; href=&quot;#arthur-sea-co-ltd-bangkok&quot; aria-label=&quot;Anchor link for: arthur-sea-co-ltd-bangkok&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;strong&gt;Senior DevOps Engineer (Mar 2021 - Sep 2022)&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Responsibility:&lt;&#x2F;strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Transform infrastructure to Kubernetes (AWS EKS) with multi-account on AWS for Micro-Services Architecture.&lt;&#x2F;li&gt;
+&lt;li&gt;Improve the performance, stability, scalability, and cost-effective.&lt;&#x2F;li&gt;
+&lt;li&gt;Secure the infrastructure and application, Using Falco, Teleport, AWS Secret Manager.&lt;&#x2F;li&gt;
+&lt;li&gt;CI&#x2F;CD Automation, Using GitHub Action, AWS ECR.&lt;&#x2F;li&gt;
+&lt;li&gt;Setup and provide the logs and metrics data for monitoring and investigation, Using FluentBit, Grafana, Prometheus, AlertManager, Elasticsearch, and Kibana.&lt;&#x2F;li&gt;
+&lt;li&gt;Mentor Junior DevOps in the team.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;&lt;strong&gt;DevOps Engineer (Apr 2019 - Mar 2021)&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Responsibility:&lt;&#x2F;strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Maintain and monitor existing infrastructure on AWS, Alert the team when system failure.&lt;&#x2F;li&gt;
+&lt;li&gt;Dockerized local environment for company-wide.&lt;&#x2F;li&gt;
+&lt;li&gt;Improve the deployment system, Using Jenkins.&lt;&#x2F;li&gt;
+&lt;li&gt;Improve the internal network inside our office, Using VPN for the internal network secure access.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;&lt;strong&gt;Web Developer (Mar 2019 - Apr 2019)&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Responsibility:&lt;&#x2F;strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Develop a property management system called Arthur, Using CakePHP Framework, NodeJS, and Python.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;br&gt;
+&lt;h3 id=&quot;power-systems-integration-co-ltd-bangkok&quot;&gt;Power Systems Integration Co., Ltd. (Bangkok)&lt;a class=&quot;zola-anchor&quot; href=&quot;#power-systems-integration-co-ltd-bangkok&quot; aria-label=&quot;Anchor link for: power-systems-integration-co-ltd-bangkok&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;strong&gt;Full Stack Web Developer (Jun 2016 - Jun 2018)&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Responsibility:&lt;&#x2F;strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Management project that provides the data to customers with RESTFul API. using PHP, Redis, MSSQL MariaDB, Socket.io, Vue.js.&lt;&#x2F;li&gt;
+&lt;li&gt;Setup and maintain On-Promise servers, Using Vmware ESXi, Linux(Debian) and Windows Server OS.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;skill&quot;&gt;Skill&lt;a class=&quot;zola-anchor&quot; href=&quot;#skill&quot; aria-label=&quot;Anchor link for: skill&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;hr &#x2F;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Languages:&lt;&#x2F;strong&gt; Go, Bash, PHP, Python&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Tools:&lt;&#x2F;strong&gt; Git, Docker, Terraform, Kubernetes&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Software:&lt;&#x2F;strong&gt; JetBrains, VSCode, Microsoft Windows  (WSL), Arch Linux&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Cloud Service:&lt;&#x2F;strong&gt; AWS&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;SASS Service:&lt;&#x2F;strong&gt; GitHub, GitLab, BitBucket, Jira, Sentry, SonarCloud&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;education&quot;&gt;Education&lt;a class=&quot;zola-anchor&quot; href=&quot;#education&quot; aria-label=&quot;Anchor link for: education&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;&lt;strong&gt;Cha-Uat Wittayakarn Secondary School — 1997 - 2000&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>About Me</title>
+        <published>2023-03-25T00:00:00+00:00</published>
+        <updated>2023-03-25T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://pattp.dev/about/"/>
+        <id>https://pattp.dev/about/</id>
+        
+        <content type="html" xml:base="https://pattp.dev/about/">&lt;p&gt;Hello! I&#x27;m Patt, an SRE&#x2F;DevOps Engineer and part-time programmer based in Bangkok, Thailand. Welcome to my corner of the internet, where I share my projects, tutorials, travel adventures, and notes from my journey.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;What I&#x27;m Doing Now:&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Working as a Senior DevSecOps Engineer at &lt;a href=&quot;https:&#x2F;&#x2F;www.conicle.com&#x2F;&quot;&gt;Conicle&lt;&#x2F;a&gt;.&lt;&#x2F;li&gt;
+&lt;li&gt;Exploring the Go programming language.&lt;&#x2F;li&gt;
+&lt;li&gt;Building a home lab Kubernetes cluster with four Raspberry Pis, including setting up NAS for persistent storage.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;&lt;strong&gt;Facts About Me:&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;I started my tech journey at 16, learning HTML in internet cafes and creating websites with GeoCities (earning money from ad banners!).&lt;&#x2F;li&gt;
+&lt;li&gt;I&#x27;ve worked at an internet cafe (fixing computers, building networks, and learning LAMP stack web development).&lt;&#x2F;li&gt;
+&lt;li&gt;My entrepreneurial ventures include a computer shop and a printing business.&lt;&#x2F;li&gt;
+&lt;li&gt;My career path has evolved: Graphic Designer → Web Developer → DevOps Engineer&#x2F;Site Reliability Engineer.&lt;&#x2F;li&gt;
+&lt;li&gt;I&#x27;m an outdoor enthusiast – camping, hiking, and I dream of climbing Mount Mokoju!&lt;&#x2F;li&gt;
+&lt;li&gt;The 2020 work-from-home shift inspired me to focus on fitness through running events.&lt;&#x2F;li&gt;
+&lt;li&gt;Badminton is another passion of mine.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;&lt;strong&gt;Programming Languages:&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Go, PHP, JavaScript, Bash, Python, Terraform HCL&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;&lt;strong&gt;Tools&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Software:&lt;&#x2F;strong&gt;
+&lt;ul&gt;
+&lt;li&gt;This website is built with Zola and Tailwind CSS using the beautiful &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;VV0JC13CH&#x2F;izy-zola&quot;&gt;&amp;quot;Izy&amp;quot;&lt;&#x2F;a&gt; theme design by &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;VV0JC13CH&quot; title=&quot;Wojciech&quot;&gt;Wojciech&lt;&#x2F;a&gt;. It&#x27;s hosted on Cloudflare Pages, and the code is on GitHub: &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;boynoiz&#x2F;pattp.dev&quot;&gt;https:&#x2F;&#x2F;github.com&#x2F;boynoiz&#x2F;pattp.dev&lt;&#x2F;a&gt;. &lt;&#x2F;li&gt;
+&lt;li&gt;My primary development tools are JetBrains IDEs, supplemented with NeoVim and VS Code. I use Manjaro (WSL2) on Windows 11.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Gears:&lt;&#x2F;strong&gt;
+&lt;ul&gt;
+&lt;li&gt;CPU: AMD Ryzen 7 3700X&lt;&#x2F;li&gt;
+&lt;li&gt;Motherboard: Asus Pro WS X570-ACE&lt;&#x2F;li&gt;
+&lt;li&gt;Memory: 32GBx2 G.Skill Trident Z Neo DDR4 3200&lt;&#x2F;li&gt;
+&lt;li&gt;Storage: 240 GB SSD 2.5 SATA WD Green, 2TB Seagate FireCuda 520 SSD M.2&lt;&#x2F;li&gt;
+&lt;li&gt;GPU: Sapphire PULSE RX6600&lt;&#x2F;li&gt;
+&lt;li&gt;PSU: Corsair HX850i&lt;&#x2F;li&gt;
+&lt;li&gt;Case: Corsair Carbide Series 678C Black&lt;&#x2F;li&gt;
+&lt;li&gt;Monitor: Dell U3422WE, Dell U2422H x2(Portrait)&lt;&#x2F;li&gt;
+&lt;li&gt;Keyboard: Keychron Q1 Max Brown Switch&lt;&#x2F;li&gt;
+&lt;li&gt;Microphone: AKG P120&lt;&#x2F;li&gt;
+&lt;li&gt;Headphone: Audio-Technica ATH-M50x, Sony WF-C500&lt;&#x2F;li&gt;
+&lt;li&gt;Speaker: Creative Stage Air V2&lt;&#x2F;li&gt;
+&lt;li&gt;Audio Interface: IK Multimedia AXE I&#x2F;O, Yamaha AG06&lt;&#x2F;li&gt;
+&lt;li&gt;Lenovo Thinkpad T14 Gen 4 with Manjaro Linux&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;&lt;strong&gt;Miscellaneous&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;pattp.dev&#x2F;resume&#x2F;&quot;&gt;Resume&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>My First Post Again!</title>
+        <published>2023-03-25T00:00:00+00:00</published>
+        <updated>2023-03-25T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://pattp.dev/blog/my-first-post/"/>
+        <id>https://pattp.dev/blog/my-first-post/</id>
+        
+        <content type="html" xml:base="https://pattp.dev/blog/my-first-post/">&lt;h2 id=&quot;back-to-blogging&quot;&gt;Back to Blogging&lt;&#x2F;h2&gt;
+&lt;p&gt;It&#x27;s been a long time since I&#x27;ve actively blogged. Last time, I used Wordpress.com.&lt;&#x2F;p&gt;
+&lt;p&gt;Now, let&#x27;s try something new! After researching blogging tools, I found &lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;&quot;&gt;Zola&lt;&#x2F;a&gt;, a static site generator.&lt;&#x2F;p&gt;
+&lt;p&gt;After experimenting with Zola and incorporating &lt;a href=&quot;https:&#x2F;&#x2F;tailwindcss.com&#x2F;&quot;&gt;Tailwind&lt;&#x2F;a&gt; as my CSS framework, I discovered the &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;VV0JC13CH&#x2F;izy-zola&quot;&gt;Izy&lt;&#x2F;a&gt; theme created by &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;VV0JC13CH%5D&quot;&gt;Wojciech&lt;&#x2F;a&gt;  I hope he doesn&#x27;t mind me using his theme as a learning resource for Zola and Tailwind. (Thank you so much!)&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Dotfile</title>
+        <published>2023-03-25T00:00:00+00:00</published>
+        <updated>2023-03-25T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://pattp.dev/projects/dotfiles/"/>
+        <id>https://pattp.dev/projects/dotfiles/</id>
+        
+        <content type="html" xml:base="https://pattp.dev/projects/dotfiles/"></content>
+        
+    </entry>
+</feed>

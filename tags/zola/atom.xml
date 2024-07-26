@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Pattp.dev - zola</title>
+    <subtitle>Just about my days</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://pattp.dev/tags/zola/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://pattp.dev"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-03-25T00:00:00+00:00</updated>
+    <id>https://pattp.dev/tags/zola/atom.xml</id>
+    <entry xml:lang="en">
+        <title>My First Post Again!</title>
+        <published>2023-03-25T00:00:00+00:00</published>
+        <updated>2023-03-25T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://pattp.dev/blog/my-first-post/"/>
+        <id>https://pattp.dev/blog/my-first-post/</id>
+        
+        <content type="html" xml:base="https://pattp.dev/blog/my-first-post/">&lt;h2 id=&quot;back-to-blogging&quot;&gt;Back to Blogging&lt;&#x2F;h2&gt;
+&lt;p&gt;It&#x27;s been a long time since I&#x27;ve actively blogged. Last time, I used Wordpress.com.&lt;&#x2F;p&gt;
+&lt;p&gt;Now, let&#x27;s try something new! After researching blogging tools, I found &lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;&quot;&gt;Zola&lt;&#x2F;a&gt;, a static site generator.&lt;&#x2F;p&gt;
+&lt;p&gt;After experimenting with Zola and incorporating &lt;a href=&quot;https:&#x2F;&#x2F;tailwindcss.com&#x2F;&quot;&gt;Tailwind&lt;&#x2F;a&gt; as my CSS framework, I discovered the &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;VV0JC13CH&#x2F;izy-zola&quot;&gt;Izy&lt;&#x2F;a&gt; theme created by &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;VV0JC13CH%5D&quot;&gt;Wojciech&lt;&#x2F;a&gt;  I hope he doesn&#x27;t mind me using his theme as a learning resource for Zola and Tailwind. (Thank you so much!)&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
