@@ -24,6 +24,7 @@ updated = 2026-07-18
   - Build observability with Prometheus, the VictoriaMetrics stack (VictoriaMetrics, VictoriaLogs, VictoriaTraces), and Fluent Bit, visualized in Grafana dashboards.
   - Provide the data engineering team with a streaming and ETL platform, Using Airflow, Airbyte, Debezium, Kafka, and Flink.
   - Designed and built a zero-trust network access platform for developers to reach internal infrastructure — NetBird (WireGuard mesh VPN), Zitadel IdP for fine-grained access control with OIDC federated from Google Workspace, HashiCorp Boundary for brokered SSH/Kubernetes access, and PowerDNS for internal resolution (split-horizon DNS).
+  - Own the vulnerability-management lifecycle for the VM fleet — rolling out proactive CVE scanning with Nuclei that feeds a Molecule-tested Ansible remediation pipeline (CI on self-hosted ARC runners) which applies staged patches and orchestrated, windowed reboots, plus Terraform infrastructure fixes; Kubernetes nodes are covered by Falco + Kyverno runtime security.
   - Mentor and guide teammates day to day — answering technical questions, reviewing designs, and sharing DevSecOps best practices across the team.
 
 <br>
