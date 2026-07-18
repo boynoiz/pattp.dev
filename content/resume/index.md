@@ -1,10 +1,11 @@
 +++
 title = "Resume"
 date = 2024-04-11
+updated = 2026-07-18
 +++
 
 # Pathompong Pechkongtong
-**SRE | DevOps | Web Developer**
+**DevSecOps | SRE | DevOps**
 
 * Email - me@pattp.dev
 * Github - [boynoiz](https://github.com/boynoiz)
@@ -13,8 +14,22 @@ date = 2024-04-11
 ## Experience
 
 ---
+### Conicle Co., Ltd. (Bangkok)
+**Senior DevSecOps Engineer (Jun 2024 - Present)**
+
+* **Responsibility:**
+  - Design, operate, and secure multi-cloud and on-premise infrastructure across AWS, Huawei Cloud, GCP, Digital Ocean, and customers' on-premise environments.
+  - Run our Learning Management System (LMS) for ~100 customer sites, in both dedicated and multi-tenant setups.
+  - Provision cloud infrastructure with Terraform; package and deploy workloads to Kubernetes with Helm (migrated from Kustomize), using GitOps with GitLab CI, GitHub Actions (ARC runners), and ArgoCD.
+  - Build observability with Prometheus, the VictoriaMetrics stack (VictoriaMetrics, VictoriaLogs, VictoriaTraces), and Fluent Bit, visualized in Grafana dashboards.
+  - Provide the data engineering team with a streaming and ETL platform, Using Airflow, Airbyte, Debezium, Kafka, and Flink.
+  - Designed and built a zero-trust network access platform for developers to reach internal infrastructure — NetBird (WireGuard mesh VPN), Zitadel IdP for fine-grained access control with OIDC federated from Google Workspace, HashiCorp Boundary for brokered SSH/Kubernetes access, and PowerDNS for internal resolution (split-horizon DNS).
+  - Mentor and guide teammates day to day — answering technical questions, reviewing designs, and sharing DevSecOps best practices across the team.
+
+<br>
+
 ### Sellsuki Co., Ltd., (Bangkok)
-**Senior Site Reliability Engineer (Mar 2023 - Present)**
+**Senior Site Reliability Engineer (Mar 2023 - May 2024)**
 
 * **Responsibility:**
   - Maintain and improve the infrastructure for the company's SaaS product called Akita, Using Kubernetes (AWS EKS) with Terraform.
@@ -62,11 +77,13 @@ date = 2024-04-11
 ## Skill
 
 ---
-* **Languages:** Go, Bash, PHP, Python
-* **Tools:** Git, Docker, Terraform, Kubernetes
-* **Software:** JetBrains, VSCode, Microsoft Windows  (WSL), Arch Linux
-* **Cloud Service:** AWS
-* **SASS Service:** GitHub, GitLab, BitBucket, Jira, Sentry, SonarCloud
+* **Languages:** Go, Rust, Bash, Python, PHP
+* **Tools:** Git, Docker, Kubernetes, Helm, Kustomize, ArgoCD, Terraform
+* **Observability:** Prometheus, VictoriaMetrics stack (Metrics, Logs, Traces), Grafana, Fluent Bit, OpenTelemetry
+* **Data Platform:** Airflow, Airbyte, Debezium, Kafka, Flink
+* **Software:** JetBrains, NeoVim, VSCode, Microsoft Windows (WSL), CachyOS (Arch Linux)
+* **Cloud Service:** AWS, GCP, Huawei Cloud, Digital Ocean, On-premise
+* **SaaS Service:** GitHub, GitLab, BitBucket, Jira, Sentry, SonarCloud
 
 ## Education
 
